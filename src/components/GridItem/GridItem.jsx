@@ -5,3 +5,9 @@ const GridItem = ({ children }) => {
 };
 
 export default GridItem;
+
+// const GridItem = ({ children }) => {
+//   return <li className={style.item}>{children}</li>;
+// };
+
+// export default GridItem;

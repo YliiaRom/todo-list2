@@ -6,7 +6,7 @@ const Header = () => {
     <header className={styles.header}>
       <Container>
         <nav className={styles.nav}>
-          <h3 className={styles.title}>Lesson 4 redux</h3>
+          <h3 className={styles.title}>Todo</h3>
         </nav>
       </Container>
     </header>
