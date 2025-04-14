@@ -8,7 +8,7 @@ import {
   setCurrentTodo,
 } from '../../redux/todoSlice';
 import { useDispatch, useSelector } from 'react-redux';
-setCurrentTodo;
+
 const EditForm = () => {
   const dispatch = useDispatch();
   const currentTodo = useSelector(selectCurrentTodo);
@@ -26,8 +26,9 @@ const EditForm = () => {
       ...currentTodo,
       text,
     };
-    console.log(updatedTodo);
+
     dispatch(editTodo(updatedTodo));
+
     e.target.reset();
   };
   return (

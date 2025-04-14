@@ -3,4 +3,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  white-space: normal;
+
+  /* max-width: 400px;
+  width: fit-content; */
 }

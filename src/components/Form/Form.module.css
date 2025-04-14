@@ -1,5 +1,6 @@
 .form {
   width: 400px;
+  max-width: fit-content;
   margin: 0 auto;
   position: relative;
   margin-bottom: 40px;
