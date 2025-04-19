@@ -24,10 +24,6 @@ const Form = () => {
   };
   return (
     <form className={style.form} onSubmit={handleSubmit}>
-      <button className={style.button} type="submit">
-        <FiSearch size="16px" />
-      </button>
-
       <input
         className={style.input}
         placeholder="What do you want to write?"
@@ -35,6 +31,9 @@ const Form = () => {
         required
         autoFocus
       />
+      <button className={style.button} type="submit">
+        <FiSearch size="16px" />
+      </button>
     </form>
   );
 };

@@ -1,11 +1,14 @@
 .header {
   padding: 20px 0;
 
-  background-color: #fff;
+  background-color: #202020;
 
-  box-shadow: var(--shadow-regular);
+  /* box-shadow: inset var(--shadow-regular); */
+  box-shadow: inset 0px -2px 10px hsl(126, 97%, 49%);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  background: linear-gradient(0deg, #000, #3c3c3c);
+  color: #eee;
 }
 
 .nav {
@@ -16,7 +19,9 @@
 
 .title {
   color: var(--color-dark);
+  color: #eee;
   font-size: var(--font-medium);
   font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: 5px;
 }

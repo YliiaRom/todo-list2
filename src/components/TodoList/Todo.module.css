@@ -1,0 +1,8 @@
+.box {
+  max-width: fit-content;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.todo {
+  box-shadow: inset 0px 15px 30px #05fe3b;
+}

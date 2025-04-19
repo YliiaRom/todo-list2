@@ -5,10 +5,25 @@
 
   color: var(--color-gray);
   box-shadow: var(--shadow-regular);
-
+  box-shadow: inset 0px 0px 10px #7b7b85, -1px -1px 2px #fff,
+    -2px 0px 0px rgb(4, 142, 4);
   position: relative;
   width: 100%;
   height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #171616 1%,
+    #646262 5%,
+    #bdbcbc,
+    #b5b4b4 20%,
+    #b5b4b4 65%,
+    #b5b4b4,
+    #b5b4b4 95%,
+    #171616 99%,
+    transparent
+  );
+  color: rgb(75, 75, 75);
 }
 
 .button {
@@ -39,4 +54,5 @@
   composes: button;
   bottom: 0;
   color: var(--color-lightBlue);
+  color: rgb(20, 110, 20);
 }

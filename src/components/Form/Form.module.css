@@ -1,30 +1,31 @@
 .form {
-  width: 400px;
-  max-width: fit-content;
+  max-width: 700px;
+  /* max-width: fit-content; */
+  height: fit-content;
   margin: 0 auto;
   position: relative;
   margin-bottom: 40px;
+  /* background-color: aliceblue; */
 }
 
 .input {
   width: 100%;
   height: 56px;
-
-  border-style: none;
-  border-bottom: 1px solid #212121;
   background-color: transparent;
+  padding: 7px 12px;
 
-  padding: 16px;
-  padding-right: 40px;
   outline: none;
-
+  border: 1px solid #fff;
   transition: var(--animation-cubicBezier);
 
   font-size: var(--font-medium);
-  color: var(--color-dark);
+  color: #b6b5b5;
   font-weight: 300;
   letter-spacing: 0.03em;
-
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background-color: #eae7e7;
+  color: #171616;
   &::placeholder {
     font-weight: 200;
   }
@@ -33,12 +34,40 @@
 .button {
   width: 50px;
   height: 50px;
-
+  padding: 10px 20px;
   font-size: 20px;
   font-weight: bold;
-  color: var(--color-dark);
 
-  position: absolute;
-  top: 0;
-  right: 0;
+  color: rgb(12, 1, 21);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #171616 2%,
+    #646262 5%,
+    #bdbcbc,
+    #b5b4b4 20%,
+    #b5b4b4 65%,
+    #b5b4b4,
+    #b5b4b4 93%,
+    #171616 99%,
+    transparent
+  );
+  box-shadow: -2px -1px 1px #514f4f, 2px -1px 1px #514f4f;
+  width: 100%;
+  transition: all 0.3s;
+}
+.button:hover,
+.button:focus {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #d8d0d0 5%,
+    #dedbdb,
+    #ece9e9 20%,
+    #dedbdb 65%,
+    #dedbdb,
+    #dedbdb 93%,
+    #dedbdb 95%,
+    transparent
+  );
 }
